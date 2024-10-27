@@ -24,12 +24,12 @@ Fortunately, Tobia obeys his owner's commands and tends to be quiet when scolded
 
 This is the idea behind this project. Connect a good enough speaker to your PC and let the software automatically scold it for you! **All you have to do is prepare a bunch of short scolding recordings.**
 
-# 🔧 How it works
+## 🔧 How it works
 
 1. Record your voice while scolding the puppy several times.
 2. Put these recordings in the folder `alerts\`.
 3. Tune the constant parameters in the `stop_it.py` script (optional).
-4. Execute the script with the command `python stop_it.py`
+4. Execute the script with the command `python stop_it.py`.
 
 You can watch the real-time noise plot by launching the webserver `web_server.py` and navigating to 
 >**https://localhost:8080/noise/plot?max_hours=12&max_points=200**
