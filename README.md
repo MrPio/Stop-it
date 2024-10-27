@@ -41,4 +41,6 @@ openssl req -new -x509 -key key.pem -out cert.pem -days 365
 ```
 and put them inside the `secrets/` folder.
 
+---
 
+Tested on Ubuntu 22
