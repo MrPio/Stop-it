@@ -9,7 +9,7 @@ import datetime
 from time import time_ns
 
 
-SEND_ALERT=False
+SEND_ALERT=True
 MIC_SENSITIVITY=25
 VOLUME_NIGHT=50
 VOLUME_DAY=120
