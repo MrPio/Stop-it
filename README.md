@@ -24,6 +24,12 @@ Fortunately, Tobia obeys his owner's commands and tends to be quiet when scolded
 
 This is the idea behind this project. Connect a good enough speaker to your PC and let the software automatically scold it for you! **All you have to do is prepare a bunch of short scolding recordings.**
 
+Here's what happens:
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/8d6e1cb4-19c1-43a8-b72e-4c212db33dce" width="75%">
+</p>
+
 ## 🔧 How it works
 
 1. Record your voice while scolding the puppy several times.
@@ -37,6 +43,7 @@ You can watch the real-time noise plot by launching the webserver `web_server.py
 Make sure to generate the public/private SSL keys with the following commands:
 ```[bash]
 openssl genrsa -out key.pem 2048
+
 openssl req -new -x509 -key key.pem -out cert.pem -days 365
 ```
 and put them inside the `secrets/` folder.
